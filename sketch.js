@@ -1,3 +1,45 @@
+/*
+Storing data - variables
+
+Data types:
+1. Number
+2. string
+3. Undefined
+4. Boolean (T/F) = 2 values 
+5. Null
+
+DATA STRUCTURE
+ - Array
+    - List of variables
+    - Single or multiple data types
+    - created inside []
+    - length = number of elements
+    - Index number: 0- (length-1)
+
+*/
+
+//Array containing same data type
+var arr1 = [1, 2, 3, 4, 5];
+console.log(arr1);
+console.log(arr1[2]);
+
+//Array containing different data types
+var arr2 = [100, "Aarnav", true];
+console.log(arr2);
+console.log(arr2[0]);
+
+//Array containing a list of arrays
+var arr3 = [[1, 2], [2, 3], [3,4], [4,5]];
+console.log(arr3);
+//console.log(arr3[3]);
+console.log(arr3[3][1]);
+
+arr3.push("Srishti");
+console.log(arr3);
+
+arr3.pop();
+console.log(arr3);
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
